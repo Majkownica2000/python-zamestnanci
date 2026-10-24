@@ -1,0 +1,30 @@
+# Virtuální prostředí
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Výstupy programu
+vysledek.json
+
+# Distribuce / balíčky
+build/
+dist/
+*.egg-info/
+
+# Testy a nástroje
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editory a OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
